@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-
+import heroImage from '../assets/dashboard.png';
 function Hero() {
   const [email, setEmail] = useState('')
 
@@ -67,7 +67,7 @@ function Hero() {
           className="w-full max-w-5xl z-10 relative -mb-36"
         >
           <img
-            src="/src/assets/dashboard.png"
+            src={heroImage}
             alt="NftX Dashboard"
             className="w-full rounded-2xl shadow-2xl border border-gray-800"
           />
